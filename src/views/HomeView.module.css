@@ -1,0 +1,36 @@
+.container {
+  min-height: calc(100vh - 50px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  flex-wrap: wrap;
+
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #c4c4c4;
+  background-image: linear-gradient(
+      rgba(150, 150, 150, 0.7),
+      rgba(100, 100, 100, 0.7)
+    ),
+    url('../lib/call-center_1280.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.title {
+  font-weight: 700;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 72px;
+  line-height: 1.615;
+  letter-spacing: 0.06em;
+  /* text-transform: uppercase; */
+  /* text-align: center; */
+  z-index: 10;
+
+  max-width: 720px;
+  display: block;
+
+  position: absolute;
+  top: 50px;
+}

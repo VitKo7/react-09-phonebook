@@ -1,0 +1,48 @@
+.addContactForm {
+  display: flex;
+  flex-wrap: wrap;
+  /* flex-direction: column; */
+  justify-content: space-between;
+  align-items: center;
+}
+
+.label {
+  font-weight: 700;
+  margin: 0 20px 10px 10px;
+  /* margin-right: 20px;
+  margin-bottom: 10px; */
+}
+
+.input {
+  padding: 3px;
+  margin-bottom: 10px;
+}
+
+.text {
+  font-style: 12px;
+}
+
+.btnAdd {
+  margin-left: 215px;
+  padding: 7px 20px;
+  border-radius: 5px;
+  background-color: rgb(78, 140, 78);
+  transition: all 200ms ease;
+  font-weight: 500;
+  text-align: center;
+  display: inline-block;
+  color: #fff;
+  border: 0;
+  text-decoration: none;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 24px;
+  font-style: normal;
+  min-width: 100px;
+}
+
+.btnAdd:hover,
+.btnAdd:focus {
+  background-color: rgb(50, 100, 50);
+}

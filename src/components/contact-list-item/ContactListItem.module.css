@@ -1,0 +1,24 @@
+.btnDelete {
+  margin-left: 35px;
+  padding: 5px 1px;
+  border-radius: 5px;
+  background-color: rgb(150, 150, 150);
+  transition: all 200ms ease;
+  font-weight: 500;
+  text-align: center;
+  display: inline-block;
+  color: #fff;
+  border: 0;
+  text-decoration: none;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 24px;
+  font-style: normal;
+  min-width: 100px;
+}
+
+.btnDelete:hover,
+.btnDelete:focus {
+  background-color: rgb(100, 100, 100);
+}
