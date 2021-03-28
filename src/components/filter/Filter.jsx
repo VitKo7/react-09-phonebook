@@ -7,8 +7,8 @@ import contactsSelectors from '../../redux/contacts/contacts-selectors';
 
 export default function Filter() {
   // const [state, setState] = useState({});
-  const filter = useSelector(contactsSelectors.getFilter());
-  const contacts = useSelector(contactsSelectors.getAllContacts());
+  const filter = useSelector(contactsSelectors.getFilter);
+  const contacts = useSelector(contactsSelectors.getAllContacts);
 
   const dispatch = useDispatch();
 

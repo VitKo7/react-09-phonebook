@@ -1,5 +1,5 @@
 import React from 'react';
-import { useDispatch } from 'react-redux';
+import { useSelector } from 'react-redux';
 import Navigation from './Navigation';
 import UserMenu from './user-menu/UserMenu';
 import AuthNav from './AuthNav';
@@ -15,8 +15,7 @@ const styles = {
 };
 
 export default function AppBar() {
-  const dispatch = useDispatch();
-  const isAuthenticated = dispatch(authSelectors.getIsAuthenticated());
+  const isAuthenticated = useSelector(authSelectors.getIsAuthenticated);
 
   return (
     <header style={styles.header}>

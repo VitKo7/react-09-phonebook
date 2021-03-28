@@ -17,7 +17,7 @@ const styles = {
 };
 
 export default function Navigation() {
-  const isAuthenticated = useSelector(authSelectors.getIsAuthenticated());
+  const isAuthenticated = useSelector(authSelectors.getIsAuthenticated);
 
   return (
     <nav>
