@@ -1,0 +1,39 @@
+{
+  "files": {
+    "contacts-view.css": "/static/css/contacts-view.da668668.chunk.css",
+    "contacts-view.js": "/static/js/contacts-view.e176f23b.chunk.js",
+    "contacts-view.js.map": "/static/js/contacts-view.e176f23b.chunk.js.map",
+    "home-view.css": "/static/css/home-view.35989dae.chunk.css",
+    "home-view.js": "/static/js/home-view.c6420512.chunk.js",
+    "home-view.js.map": "/static/js/home-view.c6420512.chunk.js.map",
+    "login-view.js": "/static/js/login-view.b2294405.chunk.js",
+    "login-view.js.map": "/static/js/login-view.b2294405.chunk.js.map",
+    "main.css": "/static/css/main.d71a3a67.chunk.css",
+    "main.js": "/static/js/main.b759ea2e.chunk.js",
+    "main.js.map": "/static/js/main.b759ea2e.chunk.js.map",
+    "register-view.js": "/static/js/register-view.1fee3a85.chunk.js",
+    "register-view.js.map": "/static/js/register-view.1fee3a85.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.bcedc1f3.js",
+    "runtime-main.js.map": "/static/js/runtime-main.bcedc1f3.js.map",
+    "static/css/6.de71bbd8.chunk.css": "/static/css/6.de71bbd8.chunk.css",
+    "static/js/6.1b08ad87.chunk.js": "/static/js/6.1b08ad87.chunk.js",
+    "static/js/6.1b08ad87.chunk.js.map": "/static/js/6.1b08ad87.chunk.js.map",
+    "static/js/7.8961c70f.chunk.js": "/static/js/7.8961c70f.chunk.js",
+    "static/js/7.8961c70f.chunk.js.map": "/static/js/7.8961c70f.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/6.de71bbd8.chunk.css.map": "/static/css/6.de71bbd8.chunk.css.map",
+    "static/css/contacts-view.da668668.chunk.css.map": "/static/css/contacts-view.da668668.chunk.css.map",
+    "static/css/home-view.35989dae.chunk.css.map": "/static/css/home-view.35989dae.chunk.css.map",
+    "static/css/main.d71a3a67.chunk.css.map": "/static/css/main.d71a3a67.chunk.css.map",
+    "static/js/6.1b08ad87.chunk.js.LICENSE.txt": "/static/js/6.1b08ad87.chunk.js.LICENSE.txt",
+    "static/media/HomeView.module.css": "/static/media/call-center_1280.aeb46331.webp",
+    "static/media/default-avatar.bd60660e.png": "/static/media/default-avatar.bd60660e.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bcedc1f3.js",
+    "static/css/6.de71bbd8.chunk.css",
+    "static/js/6.1b08ad87.chunk.js",
+    "static/css/main.d71a3a67.chunk.css",
+    "static/js/main.b759ea2e.chunk.js"
+  ]
+}
