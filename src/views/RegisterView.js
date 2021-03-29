@@ -34,7 +34,7 @@ export default function RegisterView() {
   const handleSubmit = evt => {
     evt.preventDefault();
     //     this.props.onRegister(this.state);
-    dispatch(authOperations.register());
+    dispatch(authOperations.register({name, email, password}));
     setName('');
     setEmail('');
     setPassword('');

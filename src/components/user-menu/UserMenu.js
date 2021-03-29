@@ -18,10 +18,10 @@ const styles = {
 };
 
 export default function UserMenu() {
-  const name = useSelector(authSelectors.getUsername());
+  const name = useSelector(authSelectors.getUsername);
 
   const dispatch = useDispatch();
-  const onLogout = dispatch(authOperations.logOut());
+  const onLogout = () => dispatch(authOperations.logOut());
 
   return (
     <div style={styles.container}>

@@ -30,7 +30,7 @@ export default function LoginView() {
   const handleSubmit = event => {
     event.preventDefault();
     //     this.props.onLogin(this.state);
-    dispatch(authOperations.logIn());
+    dispatch(authOperations.logIn({ email, password }));
     setEmail('');
     setPassword('');
   };

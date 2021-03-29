@@ -16,7 +16,7 @@ const ContactForm = () => {
     setNumber(evt.target.value);
   };
 
-  const contacts = useSelector(contactsSelectors.getAllContacts());
+  const contacts = useSelector(contactsSelectors.getAllContacts);
 
   const dispatch = useDispatch();
 
