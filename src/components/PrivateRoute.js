@@ -14,6 +14,7 @@ export default function PrivateRoute({
   ...routeProps
 }) {
   const isAuthenticated = useSelector(authSelectors.getIsAuthenticated);
+  // const isAuthenticated = true;
 
   return (
     <Route
